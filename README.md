@@ -1,87 +1,9 @@
-CypressJavaScript
-
-
- Project Overview
-
-CypressJavaScript is a cutting-edge automation testing suite built with Cypress & JavaScript.
-It provides end-to-end testing for web applications, ensuring your apps remain bug-free while integrating seamlessly with CI/CD pipelines using GitHub Actions.
-
-“Automate everything, test once, deploy confidently.”
-
-📂 Repository Structure
-.github/workflows/   → GitHub Actions CI/CD workflows
-cypress/             → All Cypress test files
-  ├─ e2e/            → End-to-end test scripts
-  ├─ fixtures/       → Test data for automation
-  └─ support/        → Custom commands & helpers
-cypress.config.js    → Cypress configuration
-package.json         → Dependencies & scripts
-.gitignore           → Files to ignore in Git
-
-
-Key Features
-
-✅ Automated end-to-end testing with Cypress
-
-✅ Runs tests in Chrome using GitHub Actions
-
-✅ Integrates easily into CI/CD pipelines
-
-✅ Fully written in JavaScript
-
-✅ Designed for developers & QA engineers
-
-
- GitHub Actions
-
-The repo is fully integrated with GitHub Actions to automatically run tests on every commit or pull request:
-
-Workflow	Last Run	Duration	Status
-Run Cypress Tests (Chrome)	Main branch	57s	✅ Success
-
-Tests run automatically to ensure code quality & stability before deployment.
-
-
-
- Getting Started
-
-Clone the repository
-
-git clone https://github.com/stylianosAutomation/CypressJavaScript.git
-
-
-Install dependencies
-
-npm install
-
-
-Run tests locally
-
-npx cypress open
-
-
-Push changes — GitHub Actions will automatically run tests.
-
-🎯 Contributing
-
-We welcome contributions! Please fork the repository and create a pull request for review.
-
-Contributors:
-
-stylianosAutomation – Repository owner & main contributor
-
-stylianoResp – Contributor
-
-📌 Recommended Tools
-
-Node.js ≥ 18.x
-
-Cypress ≥ 12.x
-
-GitHub Desktop / CLI for easier management
-
- Tip
-
-Always run tests locally before pushing to avoid CI/CD failures.
-Automate, test, and deploy confidently! ✅
-
+<h1 align="center" style="color:#1E90FF; border-bottom: 2px solid #1E90FF;">CypressJavaScript</h1> <p align="center"> <img src="https://img.shields.io/github/actions/workflow/status/stylianosAutomation/CypressJavaScript/e-shop.yml?branch=main&style=for-the-badge" alt="GitHub Actions"> <img src="https://img.shields.io/github/repo-size/stylianosAutomation/CypressJavaScript?style=for-the-badge" alt="Repo Size"> <img src="https://img.shields.io/github/languages/top/stylianosAutomation/CypressJavaScript?style=for-the-badge" alt="Languages"> </p>
+<h2 style="color:#1E90FF; border-bottom: 2px solid #1E90FF;">Project Overview</h2> <p style="color:#333;"> CypressJavaScript is a <b>state-of-the-art automation testing suite</b> built with <b>Cypress and JavaScript</b>. It provides end-to-end testing for web applications, ensuring your apps remain bug-free while integrating seamlessly with <b>CI/CD pipelines</b> using <b>GitHub Actions</b>. </p>
+<h2 style="color:#1E90FF; border-bottom: 2px solid #1E90FF;">Repository Structure</h2> <p style="color:#333;"> The repository contains the following folders and files: </p> <ul style="color:#333;"> <li><b>.github/workflows/</b> – GitHub Actions workflow files for CI/CD automation</li> <li><b>cypress/</b> – All Cypress test files <ul> <li>e2e/ – End-to-end test scripts</li> <li>fixtures/ – Test data for automation</li> <li>support/ – Custom commands & helpers</li> </ul> </li> <li><b>cypress.config.js</b> – Cypress configuration file</li> <li><b>package.json / package-lock.json</b> – Node.js dependencies and scripts</li> <li><b>.gitignore</b> – Files and folders ignored by Git</li> </ul>
+<h2 style="color:#1E90FF; border-bottom: 2px solid #1E90FF;">Key Features</h2> <ul style="color:#333;"> <li>Automated end-to-end testing with Cypress</li> <li>Tests run in Chrome using GitHub Actions</li> <li>Easy CI/CD integration</li> <li>Fully written in JavaScript</li> <li>Designed for developers and QA engineers</li> </ul>
+<h2 style="color:#1E90FF; border-bottom: 2px solid #1E90FF;">GitHub Actions & Tests</h2> <p style="color:#333;"> The repository uses <b>GitHub Actions</b> to automatically run tests on every commit or pull request. </p> <p style="color:#333;"><b>Workflow:</b> Run Cypress Tests (Chrome) <br> <b>Last Run:</b> October 30, 2025 <br> <b>Duration:</b> 49 seconds <br> <b>Status:</b> <span style="color:green;">Success</span></p> <h3 style="color:#1E90FF; border-bottom: 1px solid #1E90FF;">Tests Executed</h3> <table> <tr> <th style="text-align:left; padding:4px;">Test Suite</th> <th style="text-align:left; padding:4px;">Status</th> </tr> <tr> <td>cypress/e2e/order.spec.js</td> <td><span style="color:green;">Passed</span></td> </tr> <tr> <td>cypress/e2e/login.spec.js</td> <td><span style="color:green;">Passed</span></td> </tr> <tr> <td>cypress/e2e/cart.spec.js</td> <td><span style="color:green;">Passed</span></td> </tr> <tr> <td>cypress/e2e/payment.spec.js</td> <td><span style="color:green;">Passed</span></td> </tr> </table>
+<h2 style="color:#1E90FF; border-bottom: 2px solid #1E90FF;">Getting Started</h2> <pre style="background:#f5f5f5; padding:10px; border-radius:5px;"> # Clone the repository git clone https://github.com/stylianosAutomation/CypressJavaScript.git # Install dependencies npm install # Run tests locally npx cypress open # Push changes — GitHub Actions will run tests automatically </pre>
+<h2 style="color:#1E90FF; border-bottom: 2px solid #1E90FF;">Contributing</h2> <p style="color:#333;"> Contributions are welcome. Fork the repository and create a pull request for review. </p> <p style="color:#333;"><b>Contributors:</b><br> - stylianosAutomation – Repository owner and main contributor<br> - stylianoResp – Contributor </p>
+<h2 style="color:#1E90FF; border-bottom: 2px solid #1E90FF;">Recommended Tools</h2> <ul style="color:#333;"> <li>Node.js ≥ 18.x</li> <li>Cypress ≥ 12.x</li> <li>GitHub Desktop or CLI for easier management</li> </ul>
+<h2 style="color:#1E90FF; border-bottom: 2px solid #1E90FF;">Tip</h2> <p style="color:#333;"> Always run tests locally before pushing to avoid CI/CD failures. Automate, test, and deploy confidently. </p>
