@@ -26,7 +26,7 @@ describe('Regression Testing - E-shop', () => {
   it('DVTAS-03 : Purchace first Product in Cart - Checkout ', () => {
     cy.visit(url)
     cy.login(users.usersEshop.visual.username, users.usersEshop.visual.password)
-    cy.addProductsToCart("")
+    cy.addProductsToCart(productList.items.backpack.name)
     cy.checkoutForm()
     cy.validationCheckout()
   })
