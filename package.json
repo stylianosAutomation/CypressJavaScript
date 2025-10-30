@@ -1,0 +1,26 @@
+{
+  "name": "cypressjavascript",
+  "version": "1.0.0",
+  "description": "A Cypress JavaScript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^15.5.0",
+    "eslint": "^9.38.0",
+    "eslint-plugin-cypress": "^5.2.0"
+  },
+  "dependencies": {
+    "uninstall": "^0.0.0"
+  }
+}
