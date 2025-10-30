@@ -5,7 +5,8 @@
 
 
 import { urlHook } from "../support/hooks/url-set-up";
-import { users } from "../fixtures/users";;
+import { users } from "../fixtures/users";
+import { productList } from "../fixtures/items";
 
 const { url } = urlHook( "production" , "sauce")
 
