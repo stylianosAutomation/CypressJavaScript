@@ -6,7 +6,7 @@ on:
       spec_file:
         description: 'Select Cypress spec file to run'
         required: true
-        default: 'cypress/e2e/eship-spec.cy.js'
+        default: 'cypress/e2e/eshop-spec.cy.js'
 
 jobs:
   cypress-run:
