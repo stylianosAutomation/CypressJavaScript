@@ -1,12 +1,13 @@
-# CypressJavaScript
-Cypress Automation in Javascript 
+CypressJavaScript
 
+Description:
+This repository contains Cypress automation tests written in JavaScript for end-to-end testing of web applications. It is designed for developers and QA engineers who want to automate testing and integrate it into CI/CD workflows.
 
-Structure:
+Repository Structure
 
-.github/workflows/ – Contains GitHub Actions workflow(s) for CI/CD automation.
+.github/workflows/ – Contains GitHub Actions workflow(s) for automated test runs.
 
-cypress/ – Cypress test folder, likely containing:
+cypress/ – Cypress folder with:
 
 e2e tests
 
@@ -16,20 +17,26 @@ cypress.config.js – Cypress configuration file.
 
 package.json / package-lock.json – Node.js dependencies and scripts.
 
-.gitignore – Standard Git ignore file.
+.gitignore – Files and folders to ignore in Git.
 
-README.md – Project description.
+Languages
 
-Languages:
+JavaScript
 
-100% JavaScript
+Purpose
 
-Purpose:
+Automates end-to-end testing using Cypress.
 
-Automates testing using Cypress.
+Supports CI/CD integration via GitHub Actions.
 
-Supports CI/CD via GitHub Actions.
+GitHub Actions
 
-Contributors:
+Workflow: Run Cypress Tests (Chrome)
 
-stylianosAutomation
+Last Run: Manual run triggered by stylianosAutomation on branch main
+
+Duration: 57 seconds
+
+Status: ✅ Success
+
+This workflow automatically runs Cypress tests in Chrome whenever triggered, ensuring tests pass before deployment.
